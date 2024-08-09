@@ -24,6 +24,15 @@ h1 {
 	margin-bottom: 1rem;
 }
 
+
+
+
+
+
+
+
+
+
 input:not([type="checkbox"]),
 button {
 	appearance: none;
@@ -52,7 +61,7 @@ input[type="checkbox"] {
 	left: 0;
 	right: 0;
 	border-radius: 3px;
-	background: linear-gradient(to right, #ad25fc 25%, #518cd4 75%);
+	/* background: linear-gradient(to right, #ad25fc 25%, #518cd4 75%); */
 }
 
 .wrap-password input {
@@ -60,6 +69,22 @@ input[type="checkbox"] {
 	padding: 0.5rem;
 	color: #282847;
 }
+
+.wrap-password input::placeholder {
+	color: #888;
+	font-style: italic;
+}
+
+.wrap-password button {
+	cursor: pointer;
+	background: linear-gradient(to bottom, #631093 0%, #055ac2 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+
 
 
 
@@ -78,3 +103,19 @@ label span {
 label input[type="number"] {
 	text-align: right;
 }
+
+
+button[type="submit"] {
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0.25rem;
+	background: linear-gradient(to right, #ad25fc 25%, #518cd4 50%);
+	background-size: 200%;
+	background-position: 25%;
+	transition: 0.4s ease-out;
+    box-shadow: 11px 29px 20px rgba(0, 0, 0, 0.2);
+}
+
