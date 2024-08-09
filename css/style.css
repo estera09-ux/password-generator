@@ -17,3 +17,64 @@ main {
 	min-height: 100vh;
 	padding: 2rem;
 }
+
+
+h1 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+input:not([type="checkbox"]),
+button {
+	appearance: none;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+.wrap-password {
+	position: relative;
+	display: flex;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.wrap-password:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 100%;
+	height: 3px;
+	left: 0;
+	right: 0;
+	border-radius: 3px;
+	background: linear-gradient(to right, #ad25fc 25%, #518cd4 75%);
+}
+
+.wrap-password input {
+	flex: 1 1 0%;
+	padding: 0.5rem;
+	color: #282847;
+}
+
+
+
+label {
+	display: flex;
+	user-select: none;
+	margin-bottom: 1rem;
+}
+
+label span {
+	display: block;
+	flex: 1 1 0%;
+	white-space: nowrap;
+}
+
+label input[type="number"] {
+	text-align: right;
+}
