@@ -52,6 +52,7 @@ async function copyPassword() {
    if (navigator.clipboard) {
       await navigator.clipboard.writeText(passwordElement.value);
       alert("Password copied to clipboard")
+      
    }
 }
 

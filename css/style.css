@@ -68,7 +68,7 @@ input[type="checkbox"] {
 	left: 0;
 	right: 0;
 	border-radius: 5px;
-	background: linear-gradient(to right, #ad25fc 25%, #518cd4 75%);
+	background: linear-gradient(to right, #ad25fc 25%, #1767c8 75%);
 }
 
 .wrap-password input {
