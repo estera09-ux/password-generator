@@ -85,7 +85,7 @@ input[type="checkbox"] {
 .wrap-password button {
 	cursor: pointer;
 	background: linear-gradient(to bottom, #631093 0%, #055ac2 75%);
-	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
