@@ -108,6 +108,9 @@ label span {
 
 label input[type="number"] {
 	text-align: right;
+	background-color: #bb51f8;
+	width: 38px;
+	font-size: 20px;
 }
 
 
